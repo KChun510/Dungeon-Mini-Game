@@ -42,7 +42,7 @@ class player{
 
 class enemy{
 	private:
-		string name = "poopy head";
+		string name = "doodoo head";
 		int health = 50;
 		int damage = 5;	
 	public:
