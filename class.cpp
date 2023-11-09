@@ -43,12 +43,11 @@ class player{
 //Main idea of classes. Set up a class that has the base functions. Then Use inheritance so spawn another object with the same fucntions and then you can add more/differnace witht the inheritied object.
 //Idea: We have a enemy with base moves. Then we have specific enemys, that we can add more to but with the base inherited
 //Also we can put classes into their own seperate file, ie: an .h File.
-class enemy{ 
 
 
 class enemy{
 	private:
-		string name = "doodoo head";
+		string name = "monster_1";
 		int health = 50;
 		int damage = 5;	
 	public:
