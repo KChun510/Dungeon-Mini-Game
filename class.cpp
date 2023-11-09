@@ -39,19 +39,18 @@ class player{
 
 };
 
-<<<<<<< HEAD
+
 //Main idea of classes. Set up a class that has the base functions. Then Use inheritance so spawn another object with the same fucntions and then you can add more/differnace witht the inheritied object.
 //Idea: We have a enemy with base moves. Then we have specific enemys, that we can add more to but with the base inherited
 //Also we can put classes into their own seperate file, ie: an .h File.
 class enemy{ 
-=======
+
 
 class enemy{
 	private:
 		string name = "doodoo head";
 		int health = 50;
 		int damage = 5;	
->>>>>>> b543c28fa3dde488a479b54fbcd64c95e2c193fd
 	public:
 		void set_health(int numb){
 			health = numb;
@@ -144,8 +143,6 @@ int main(){
 
 
 
-
-
 	player Playa;
 	int option;
 	int dam = 0;
@@ -171,13 +168,5 @@ int main(){
 	cout << "\nYou defeat the enemy!!!";
 	cout << "\nYou escape the dungeon!";
 	return 0;
-<<<<<<< HEAD
-};
-=======
-
-
-
-
 
 };
->>>>>>> b543c28fa3dde488a479b54fbcd64c95e2c193fd
